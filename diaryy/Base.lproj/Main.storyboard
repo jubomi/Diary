@@ -16,71 +16,85 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iRi-zT-ddJ">
-                                <rect key="frame" x="0.0" y="231" width="450" height="292"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iRi-zT-ddJ">
+                                <rect key="frame" x="30" y="227.5" width="354" height="292"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U8s-Bl-7oJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="450" height="146"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="146"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="PVH-xH-vLz">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="146"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="eUr-A1-pbv">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="118" y="0.0" width="118" height="146"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Angry" translatesAutoresizingMaskIntoConstraints="NO" id="mu7-TV-ron">
-                                                <rect key="frame" x="300" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="236" y="0.0" width="118" height="146"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oZg-M8-6gU">
-                                        <rect key="frame" x="0.0" y="146" width="450" height="146"/>
+                                        <rect key="frame" x="0.0" y="146" width="354" height="146"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tired" translatesAutoresizingMaskIntoConstraints="NO" id="BPH-x5-SH2">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="146"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="surprised" translatesAutoresizingMaskIntoConstraints="NO" id="nFj-4y-WJa">
-                                                <rect key="frame" x="150" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="118" y="0.0" width="118" height="146"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="love" translatesAutoresizingMaskIntoConstraints="NO" id="DOj-HW-4zU">
-                                                <rect key="frame" x="300" y="0.0" width="150" height="146"/>
+                                                <rect key="frame" x="236" y="0.0" width="118" height="146"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmH-uU-fqV">
-                                <rect key="frame" x="155" y="639" width="105" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmH-uU-fqV">
+                                <rect key="frame" x="155" y="639.5" width="104.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="모든 일기 보기"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5s-IK-SxB">
-                                <rect key="frame" x="149" y="701" width="117" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5s-IK-SxB">
+                                <rect key="frame" x="149" y="700.5" width="116.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="스티커 다운 받기"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMJ-HE-dgo">
-                                <rect key="frame" x="183" y="766" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMJ-HE-dgo">
+                                <rect key="frame" x="183" y="761.5" width="48.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="설정"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's in your mind?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFP-vw-Dr1">
-                                <rect key="frame" x="81" y="141" width="253" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's in your mind?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFP-vw-Dr1">
+                                <rect key="frame" x="80.5" y="139" width="253" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="all" translatesAutoresizingMaskIntoConstraints="NO" id="b7V-fX-8uy">
-                                <rect key="frame" x="135" y="854" width="145" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="all" translatesAutoresizingMaskIntoConstraints="NO" id="b7V-fX-8uy">
+                                <rect key="frame" x="107" y="852.5" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AJQ-MT-k3o"/>
+                                    <constraint firstAttribute="width" constant="200" id="pXX-OO-o1g"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IMJ-HE-dgo" firstAttribute="top" secondItem="M5s-IK-SxB" secondAttribute="bottom" constant="30" id="4cY-55-D2q"/>
+                            <constraint firstItem="iRi-zT-ddJ" firstAttribute="top" secondItem="EFP-vw-Dr1" secondAttribute="bottom" constant="55" id="8Gy-ff-qfd"/>
+                            <constraint firstItem="b7V-fX-8uy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Nd-HW-cTZ"/>
+                            <constraint firstItem="tmH-uU-fqV" firstAttribute="top" secondItem="iRi-zT-ddJ" secondAttribute="bottom" constant="120" id="GkV-0c-ODs"/>
+                            <constraint firstItem="tmH-uU-fqV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HMk-9e-oxd"/>
+                            <constraint firstItem="M5s-IK-SxB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NyW-uj-m57"/>
+                            <constraint firstItem="M5s-IK-SxB" firstAttribute="top" secondItem="tmH-uU-fqV" secondAttribute="bottom" constant="30" id="PKP-mB-Ewr"/>
+                            <constraint firstAttribute="trailing" secondItem="iRi-zT-ddJ" secondAttribute="trailing" constant="30" id="QzP-2V-ZYt"/>
+                            <constraint firstItem="EFP-vw-Dr1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S5c-qq-DiD"/>
+                            <constraint firstItem="b7V-fX-8uy" firstAttribute="top" secondItem="IMJ-HE-dgo" secondAttribute="bottom" constant="60" id="a9z-VO-kMm"/>
+                            <constraint firstItem="EFP-vw-Dr1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="dS5-cz-ExK"/>
+                            <constraint firstItem="iRi-zT-ddJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="hBQ-PD-wl9"/>
+                            <constraint firstItem="IMJ-HE-dgo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRz-Kn-vTd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
